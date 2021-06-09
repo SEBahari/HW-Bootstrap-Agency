@@ -1,0 +1,45 @@
+@media (min-width: 576px) {
+	.navbar {
+		--px: 1rem;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		padding-top: var(--px);
+		padding-bottom: var(--px);
+		background: #212529;
+	}
+
+	.navbar-brand-img {
+		height: 2rem;
+	}
+
+	.navbar-nav{
+		margin-top: .5rem;
+		padding-top: .5rem;
+		border-top: 1px solid whitesmoke;
+	}
+
+	.nav-link {
+		font-weight: 500;
+	}
+
+	.my-header {
+		height: 100vh;
+		background-image: url(../img/header-bg.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.header_welcome {
+		font-family: serif;
+		font-weight: 500;
+		font-size: 3rem;
+		font-style: italic;
+	}
+
+	.header_title {
+		font-weight: 700;
+		font-size: 4rem;
+		text-align: center;
+	}
+}
