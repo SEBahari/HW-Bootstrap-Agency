@@ -1,8 +1,5 @@
 let isLargeWindow;
-window.onresize = () => {
-	isLargeWindow = window.innerWidth > 991;
-};
-
+checkWindowSize()
 window.onscroll = () => {
 	if (isLargeWindow) {
 		navbarShrink();
@@ -10,8 +7,6 @@ window.onscroll = () => {
 		removeShrink();
 	}
 };
-
-
 function navbarShrink() {
 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		notInTop();
@@ -25,6 +20,7 @@ function inTop() {
 	console.log('in top');
 }
 
+
 function notInTop() {
 	document.getElementById('my-navbar').classList.add('navbar-shrink');
 	console.log('not in top');
@@ -33,3 +29,11 @@ function notInTop() {
 function removeShrink() {
 	document.getElementById('my-navbar').classList.remove('navbar-shrink');
 }
+
+function checkWindowSize () {
+	isLargeWindow = window.innerWidth > 991;
+}
+
+window.onresize = () => {
+	checkWindowSize()
+};

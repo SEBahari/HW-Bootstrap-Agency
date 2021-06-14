@@ -13,7 +13,7 @@
 		height: 2rem;
 	}
 
-	.navbar-nav{
+	.navbar-nav {
 		margin-top: .5rem;
 		padding-top: .5rem;
 		border-top: 1px solid whitesmoke;
@@ -40,6 +40,65 @@
 	.header_title {
 		font-weight: 700;
 		font-size: 4rem;
+		text-align: center;
+	}
+
+	/* services */
+	.services {
+		--py: 5rem;
+		padding-top: var(--py);
+		padding-bottom: var(--py);
+	}
+
+	.services_title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.services_description {
+		font-family: serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.3rem;
+		color: gray;
+		margin-bottom: 2rem;
+	}
+
+	.service {
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service_logo {
+		width: 9rem;
+		height: 9rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.service_logo svg {
+		width: 6rem;
+		height: 6rem;
+		fill: white;
+	}
+
+	.service_title {
+		--my: 1.5rem;
+		margin-top: var(--my);
+		margin-bottom: var(--my);
+		font-weight: 700;
+		font-size: 1.1rem;
+		text-align: center;
+	}
+
+	.service_description {
+		font-family: serif;
+		font-weight: 300;
+		font-size: 1rem;
+		color: gray;
 		text-align: center;
 	}
 }

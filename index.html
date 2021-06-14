@@ -1,94 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Agency</title>
-		<link rel="stylesheet" href="fonts/font.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark" id="my-navbar">
-			<div class="container">
-				<a href="#" class="navbar-brand">
-					<img class="navbar-brand-img" src="img/navbar-logo.svg" alt="navbar-logo" />
-				</a>
-				<button class="d-lg-none btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Agency</title>
+	<link rel="stylesheet" href="fonts/font.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" id="my-navbar">
+	<div class="container">
+		<a href="#" class="navbar-brand">
+			<img class="navbar-brand-img" src="img/navbar-logo.svg" alt="navbar-logo"/>
+		</a>
+		<button class="d-lg-none btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
 					<span class="toggler-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24"
+								 stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
 						</svg>
 					</span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link px-3 text-uppercase" href="#">services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-3 text-uppercase" href="#">portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-3 text-uppercase" href="#">about</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-3 text-uppercase" href="#">team</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-3 text-uppercase" href="#">contact</a>
-						</li>
-					</ul>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link px-3 text-uppercase" href="#">services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 text-uppercase" href="#">portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 text-uppercase" href="#">about</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 text-uppercase" href="#">team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 text-uppercase" href="#">contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<header class="my-header d-flex flex-column justify-content-center align-items-center text-white">
+	<div class="header_welcome text-capitalize mb-1">
+		well come to our studio!
+	</div>
+	<div class="header_title text-uppercase mb-4 mb-sm-5">it's nice to meet you</div>
+	<button class="header_button btn btn-primary btn-lg text-uppercase fw-bolder px-4 py-3 px-sm-4 py-sm-3">
+		tell me more
+	</button>
+</header>
+
+<div class="container services" id="services">
+	<div class="d-flex flex-column align-items-center">
+		<div class="services_title text-uppercase">services</div>
+		<div class="services_description">Lorem ipsum dolor sit amet consecrated.</div>
+		<div class="services_items row g-0 w-100">
+			<div class="col-12 col-sm-4">
+				<div class="services_item service">
+					<div class="service_logo bg-warning p-3 rounded-circle">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+						</svg>
+					</div>
+					<div class="service_title">E-Commerce</div>
+					<div class="service_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate, deserunt excepturi laudantium nisi repellendus?</div>
 				</div>
 			</div>
-		</nav>
-		<header class="my-header d-flex flex-column justify-content-center align-items-center text-white">
-			<div class="header_welcome text-capitalize mb-1">
-				well come to our studio!
+			<div class="col-12 col-sm-4">
+				<div class="services_item service">
+					<div class="service_logo bg-warning p-3 rounded-circle">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z" clip-rule="evenodd" />
+						</svg>
+					</div>
+					<div class="service_title">Responsive Design</div>
+					<div class="service_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate, deserunt excepturi laudantium nisi repellendus?</div>
+				</div>
 			</div>
-			<div class="header_title text-uppercase mb-4 mb-sm-5">it's nice to meet you</div>
-			<button class="header_button btn btn-primary btn-lg text-uppercase fw-bolder px-4 py-3 px-sm-4 py-sm-3">
-				tell me more
-			</button>
-		</header>
-		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda aut blanditiis delectus deserunt
-			dicta distinctio dolor, dolore doloribus ex, fugit harum impedit ipsum non obcaecati placeat vero vitae
-			voluptatum?
+			<div class="col-12 col-sm-4">
+				<div class="services_item service">
+					<div class="service_logo bg-warning p-3 rounded-circle">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+						</svg>
+					</div>
+					<div class="service_title">Web Security</div>
+					<div class="service_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate, deserunt excepturi laudantium nisi repellendus?</div>
+				</div>
+			</div>
 		</div>
-		<div>Aliquam aliquid animi corporis delectus distinctio eligendi hic illum impedit incidunt itaque magni molestiae,
-			nam necessitatibus neque nulla obcaecati odit pariatur provident quo quod ratione repellat rerum, sapiente
-			similique voluptas?
-		</div>
-		<div>Aliquam blanditiis id incidunt magni nesciunt officiis quam sequi soluta? Assumenda dolorem, doloribus
-			explicabo fuga hic magnam quas quia quidem quo repudiandae rerum sequi! Ab ex nemo numquam perferendis quas.
-		</div>
-		<div>Adipisci, aliquam aspernatur blanditiis consectetur deleniti dolore doloremque dolores, doloribus excepturi
-			facilis illum minus nobis odit placeat quibusdam rem repellat reprehenderit sint vel vero. Atque illum neque
-			possimus sint sunt!
-		</div>
-		<div>Adipisci aliquid aperiam architecto consequatur, cumque deleniti fugiat id laudantium molestiae necessitatibus
-			numquam quaerat quia quis vel vitae voluptate voluptatibus! Labore magnam maiores minima necessitatibus nemo
-			numquam odio sequi vero!
-		</div>
-		<div>At, beatae blanditiis corporis deserunt in maxime minima, nam nulla odit quibusdam quisquam quos, totam vitae.
-			Dolores fugit magni, maiores neque pariatur perspiciatis quisquam, repellat sint soluta tempora totam
-			voluptatibus.
-		</div>
-		<div>Amet, blanditiis consectetur culpa dicta doloribus est facere facilis fugiat illum iure laboriosam minima
-			mollitia natus nisi non officiis quam qui quis quo sapiente similique sit soluta totam veniam voluptates.
-		</div>
-		<div>Aliquam aliquid aut autem, dolore eligendi harum id impedit minus molestiae nemo quibusdam, ratione,
-			voluptatibus? Assumenda dolor et fugiat illum magnam minus nisi qui suscipit temporibus vel. Culpa, quia, tempore.
-		</div>
-		<div>Doloribus nisi officiis possimus quisquam repudiandae soluta voluptatibus. Officia, qui, sunt! Impedit
-			laudantium molestiae nesciunt vero voluptatibus! Ab accusantium alias aspernatur culpa dolores exercitationem,
-			ipsam perspiciatis sint sit, tempora velit?
-		</div>
-		<div>Alias aliquid amet dicta, dolores explicabo qui sapiente tenetur velit voluptatem. Aperiam blanditiis cumque,
-			dignissimos doloribus ea eligendi excepturi illo itaque, iure maiores modi nesciunt odio quia ratione sequi
-			tempore.
-		</div>
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+	</div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
