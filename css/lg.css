@@ -264,4 +264,8 @@
 	.about_odd .about_content {
 		text-align: right;
 	}
+
+	.about_end .be-part {
+		width: 50%;
+	}
 }

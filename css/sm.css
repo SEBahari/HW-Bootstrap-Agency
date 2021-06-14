@@ -11,7 +11,7 @@
 		height: 1.7rem;
 	}
 
-	.navbar-nav{
+	.navbar-nav {
 		margin-top: .5rem;
 		padding-top: .5rem;
 		border-top: 1px solid whitesmoke;
@@ -123,19 +123,20 @@
 		margin-bottom: 3rem;
 	}
 
-	.portfolio_item{
+	.portfolio_item {
 		padding: 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.portfolio_item_image	{
+	.portfolio_item_image {
 		width: 100%;
 		height: 14rem;
 		position: relative;
 	}
-	.portfolio_item_link{
+
+	.portfolio_item_link {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -148,21 +149,25 @@
 		opacity: 0;
 		transition: opacity .3s ease;
 	}
-	.portfolio_item_link:hover{
+
+	.portfolio_item_link:hover {
 		opacity: 100%;
 	}
-	.portfolio_item_image img{
+
+	.portfolio_item_image img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
 	}
-	.portfolio_item_title	{
+
+	.portfolio_item_title {
 		margin-top: 1.5rem;
 		font-size: 1.3rem;
 		font-weight: 700;
 	}
-	.portfolio_item_description{
+
+	.portfolio_item_description {
 		font-family: serif;
 		font-style: italic;
 		font-weight: 300;
@@ -188,5 +193,66 @@
 		font-size: 1.3rem;
 		color: gray;
 		margin-bottom: 3rem;
+	}
+
+	.about_items {
+		position: relative;
+	}
+
+	.about_line {
+		width: 0;
+		border: 1px solid #dee2e6;
+		position: absolute;
+		left: 2rem;
+		top: 2rem;
+		bottom: 2rem;
+		z-index: -1;
+	}
+
+	.about_item .blank {
+		display: none;
+	}
+
+	.about_odd {
+		flex-direction: row-reverse;
+	}
+
+	.about_img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1rem;
+		width: 4rem;
+		height: 4rem;
+		border-radius: 50%;
+		overflow: hidden;
+		border: 5px solid #dee2e6;
+	}
+
+	.about_img img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.about_content {
+		padding: 2rem;
+	}
+
+	.about_content_time,
+	.about_content_title {
+		font-size: 1.2rem;
+		font-weight: 700;
+		padding-bottom: .5rem;
+	}
+
+	.about_content_body {
+		font-size: .8rem;
+		color: gray;
+	}
+
+	.about_end .be-part {
+		width: 75%;
+		font-size: .5rem;
 	}
 }
