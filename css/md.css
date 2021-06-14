@@ -4,6 +4,7 @@
 		width: 100%;
 		position: fixed;
 		top: 0;
+		z-index: 10;
 		padding-top: var(--px);
 		padding-bottom: var(--px);
 		background: #212529;
@@ -100,5 +101,72 @@
 		font-size: 1rem;
 		color: gray;
 		text-align: center;
+	}
+
+	/* Portfolio */
+	.portfolio {
+		--py: 5rem;
+		padding-top: var(--py);
+		padding-bottom: var(--py);
+	}
+
+	.portfolio_title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.portfolio_description {
+		font-family: serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.3rem;
+		color: gray;
+		margin-bottom: 3rem;
+	}
+
+	.portfolio_item{
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.portfolio_item_image	{
+		width: 100%;
+		height: 14rem;
+		position: relative;
+	}
+	.portfolio_item_link{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: rgba(255, 208, 38, 0.8);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0;
+		transition: opacity .3s ease;
+	}
+	.portfolio_item_link:hover{
+		opacity: 100%;
+	}
+	.portfolio_item_image img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.portfolio_item_title	{
+		margin-top: 1.5rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	.portfolio_item_description{
+		font-family: serif;
+		font-style: italic;
+		font-weight: 300;
+		color: gray;
 	}
 }
