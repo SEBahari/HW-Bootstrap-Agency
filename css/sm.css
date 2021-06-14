@@ -168,4 +168,25 @@
 		font-weight: 300;
 		color: gray;
 	}
+
+	/* About */
+	.about {
+		--py: 5rem;
+		padding-top: var(--py);
+		padding-bottom: var(--py);
+	}
+
+	.about_title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.about_description {
+		font-family: serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.3rem;
+		color: gray;
+		margin-bottom: 3rem;
+	}
 }
