@@ -268,4 +268,105 @@
 	.about_end .be-part {
 		width: 50%;
 	}
+
+	/* Team */
+	.team {
+		--py: 5rem;
+		padding-top: var(--py);
+		padding-bottom: var(--py);
+	}
+
+	.team_title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.team_description {
+		font-family: serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.3rem;
+		color: gray;
+		margin-bottom: 2rem;
+	}
+
+	.person {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.person_img {
+		margin-bottom: 1rem;
+		width: 12rem;
+		height: 12rem;
+		border: 5px solid #dee2e6;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	.person_img img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.person_name {
+		font-weight: 700;
+		font-size: 1.3rem;
+	}
+
+	.person_job {
+		font-family: serif;
+		font-weight: 500;
+		font-size: .9rem;
+		color: gray;
+	}
+
+	.person_all-social {
+		margin-top: 1rem;
+		display: flex;
+	}
+
+	.person_social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: .5rem;
+		margin-right: .5rem;
+		width: 2.2rem;
+		height: 2.2rem;
+		border-radius: 50%;
+		color: white;
+		background: #212529;
+		text-decoration: none;
+		border: 2px solid transparent;
+		transition: all .3s;
+	}
+
+	.person_social-twitter:hover {
+		color: #00acee;
+		border-color: #00acee;
+		background-color: transparent;
+	}
+
+	.person_social-facebook:hover {
+		color: #3b5998;
+		border-color: #3b5998;
+		background-color: transparent;
+	}
+
+	.person_social-linkedin:hover {
+		color: #0e76a8;
+		border-color: #0e76a8;
+		background-color: transparent;
+	}
+
+	.team_description.two {
+		margin-top: 4rem;
+		font-style: normal;
+		width: 70%;
+		text-align: center;
+	}
 }
