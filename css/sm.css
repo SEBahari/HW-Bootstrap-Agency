@@ -358,4 +358,15 @@
 		width: 100%;
 		text-align: center;
 	}
+
+	/* logo */
+	.logo{
+		height: 6rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo img{
+		width: 100%;
+	}
 }
