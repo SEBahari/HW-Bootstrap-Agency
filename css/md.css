@@ -364,4 +364,32 @@
 	.logo img{
 		width: 100%;
 	}
+
+	/* contact us*/
+	.contact {
+		--py: 4rem;
+		padding-top: var(--py);
+		padding-bottom: var(--py);
+		margin-top: 5rem;
+		background-image: url(../img/map-image.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.contact_title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.contact_description {
+		font-family: serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.3rem;
+		color: gray;
+		margin-bottom: 2rem;
+	}
+	.contact_body textarea{
+		height: 100%;
+	}
 }
