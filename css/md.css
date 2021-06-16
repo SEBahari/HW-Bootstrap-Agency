@@ -355,13 +355,14 @@
 	}
 
 	/* logo */
-	.logo{
+	.logo {
 		height: 4rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-	.logo img{
+
+	.logo img {
 		width: 100%;
 	}
 
@@ -389,7 +390,41 @@
 		color: gray;
 		margin-bottom: 2rem;
 	}
-	.contact_body textarea{
+
+	.contact_body textarea {
 		height: 100%;
+	}
+
+	/* footer */
+	.footer .text-one {
+		text-align: left;
+	}
+
+	.footer .text-two {
+		text-align: right;
+	}
+
+	.footer_all-social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer_social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: .2rem;
+		margin-right: .2rem;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
+		color: white;
+		background: #212529;
+		text-decoration: none;
+	}
+
+	.footer_social:hover {
+		color: white;
 	}
 }

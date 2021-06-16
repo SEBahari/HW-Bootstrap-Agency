@@ -360,13 +360,14 @@
 	}
 
 	/* logo */
-	.logo{
+	.logo {
 		height: 6rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-	.logo img{
+
+	.logo img {
 		width: 100%;
 	}
 
@@ -394,7 +395,43 @@
 		color: gray;
 		margin-bottom: 2rem;
 	}
-	.contact_body textarea{
+
+	.contact_body textarea {
 		height: 12rem;
+	}
+
+	/* footer */
+	.footer .text-one {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+
+	.footer .text-two {
+		text-align: center;
+		margin-top: 1.5rem;
+	}
+
+	.footer_all-social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer_social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: .5rem;
+		margin-right: .5rem;
+		width: 2.5rem;
+		height: 2.5rem;
+		border-radius: 50%;
+		color: white;
+		background: #212529;
+		text-decoration: none;
+	}
+
+	.footer_social:hover {
+		color: white;
 	}
 }
